@@ -1,7 +1,5 @@
 venv
 db.sqlite3
-/static
-/media
 __pycache__/
 *.log
 *.pot

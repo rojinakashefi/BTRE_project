@@ -1,0 +1,30 @@
+#header {
+    background-color: #10284e;
+    color : #fff;
+}
+#branding h1 {
+    color :#fff;
+}
+div.breadcrumbs {
+    background-color:rgb(148, 205, 231);
+    color :#fff;;
+}
+div.breadcrumbs a {
+    background-color:rgb(148, 205, 231);
+    color :#10284e;
+
+}
+.module h2, .module caption, .inline-group h2 {
+    background-color: #10284e;
+    color : #fff;
+}
+
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background-color:rgb(148, 205, 231);
+    color :#fff;
+}
+.button.default, input[type=submit].default, .submit-row input.default{
+    background-color:rgb(148, 205, 231);
+    color :#fff;
+}
