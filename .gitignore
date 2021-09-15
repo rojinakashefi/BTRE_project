@@ -5,3 +5,5 @@ __pycache__/
 *.pot
 *.pyc
 local_settings.py
+.env
+media

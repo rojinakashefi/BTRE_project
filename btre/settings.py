@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+from decouple import config
 import os
 
 from django.http.response import BadHeaderError
@@ -23,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-oq6h===^o=2w-z%i7bs05*(#d)iic0^(c09lo=gxx&jbp1!u4u'
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -87,7 +88,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'btredb',
         'USER':'postgres',
-        'PASSWORD':'1234',
+        'PASSWORD':config('DATABASE_PASSWORD'),
         'HOST' : 'localhost',
     }
 }
@@ -147,6 +148,6 @@ MESSAGE_TAGS = {
 #Email config
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT =587
-EMAIL_HOST_USER ='kashefirojina8@gmail.com'
-EMAIL_HOST_PASSWORD='sinarojina22'
+EMAIL_HOST_USER =config('EMAIL')
+EMAIL_HOST_PASSWORD = config('EMAIL_PASSWORD')
 EMAIL_USE_TLS=True
