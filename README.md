@@ -2,7 +2,7 @@
 
 Here is a simple project to learn Django.
 
-![](https://github.com/rojinakashefi/btre_project/blob/main/git-pics/home-page.png){:height="50%" width="50%"}
+<img src="https://github.com/rojinakashefi/btre_project/blob/main/git-pics/home-page.png" width="200px" />
 
 You can use virtual enviroment by using:
 
