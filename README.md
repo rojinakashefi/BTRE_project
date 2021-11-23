@@ -2,14 +2,7 @@
 
 Here is a simple project to learn Django.
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 50%;
-}
-<img src="https://github.com/rojinakashefi/btre_project/blob/main/git-pics/home-page.png" class="center" />
+<img src="https://github.com/rojinakashefi/btre_project/blob/main/git-pics/home-page.png" margin-left="auto" margin-right="auto" width="80%" height="50%"/>
 
 You can use virtual enviroment by using:
 
