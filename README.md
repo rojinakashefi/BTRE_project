@@ -2,7 +2,7 @@
 
 Here is a simple project to learn Django.
 
-![](/assets/git-pics/home-page.png)
+![](https://github.com/rojinakashefi/btre_project/blob/main/git-pics/home-page.png | width=100)
 
 You can use virtual enviroment by using:
 
