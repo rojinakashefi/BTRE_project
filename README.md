@@ -2,11 +2,29 @@
 
 Here is a simple project to learn Django.
 
-<img src="https://github.com/rojinakashefi/btre_project/blob/main/git-pics/home-page.png" margin-left="auto" margin-right="auto" width="80%"   display= "block" height="50%"/>
+------
+
+### Landing page
+
+<img src="https://github.com/rojinakashefi/btre_project/blob/main/git-pics/home-page.png" display= "block" margin-left="auto" margin-right="auto" width="80%" height="50%"/>
+
+### About Us page
+
+<img src="https://github.com/rojinakashefi/btre_project/blob/main/git-pics/about.png" display= "block" margin-left="auto" margin-right="auto" width="80%" height="50%"/>
+
+### Login page
+
+<img src="https://github.com/rojinakashefi/btre_project/blob/main/git-pics/login.png" display= "block" margin-left="auto" margin-right="auto" width="80%" height="50%"/>
+
+### Register page
+
+<img src="https://github.com/rojinakashefi/btre_project/blob/main/git-pics/register.png" display= "block" margin-left="auto" margin-right="auto" width="80%" height="50%"/>
+
+------
 
 You can create a virtual enviroment by :
 
-```
+```python
 python3 -m venv venv 
 ```
 
